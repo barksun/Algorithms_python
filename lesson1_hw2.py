@@ -14,7 +14,7 @@ import json
 main_link_1 ='https://api-ip.fssp.gov.ru/api/v1.0/search/legal'
 region = '77'
 name = 'КарМани'
-token = 'de4v3mLbCf3w'
+token = 'xxxxxx'
 params_1 = {'region': region,
           'name': name,
           'token': token}
@@ -30,7 +30,7 @@ print (type(j_data_1))
 main_link_2 ='https://api-ip.fssp.gov.ru/api/v1.0/result'
 task = '0060302c-999f-48ec-bfb6-0ad54ee728d6'     # остался вопрос: как в переменную task подставлять значение
 # из 'response': {'task': '07ccf42a-4b97-4381-9c72-cda4fbf31fbf'},
-token = 'de4v3mLbCf3w'
+token = 'xxxx'
 params_2 = {'task': task,
           'token': token}
 response = requests.get(main_link_2, params=params_2)
